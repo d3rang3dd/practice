@@ -1,0 +1,12 @@
+graph G {
+    a -- b [weight = 10, label = "10"];
+    b -- c [weight = 5, label = "5"];
+    b -- d [weight = 11, label = "11"];
+    a -- d [weight = 16, label = "16"];
+    b -- e [weight = 3, label = "3"];
+    c -- f [weight = 3, label = "3"];
+    d -- f [weight = 2, label = "2"];
+    a -- e [weight = 10, label = "10"];
+    e -- g [weight = 8, label = "8"];
+    c -- g [weight = 14, label = "10"];
+}
